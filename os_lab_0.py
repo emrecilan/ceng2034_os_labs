@@ -10,7 +10,7 @@ print("os_lab_0 was opened.\n")
 os.open("1.py", os.O_CREAT)
 os.open("2.txt", os.O_CREAT)
 os.open("3.txt", os.O_CREAT)
-print("1.py ve 2.txt were created.\n")
+print("1.py, 2.txt and 3.txtwere created.\n")
 
 print("--------Last Modified of All File--------")
 for a in os.listdir(os.getcwd()):
